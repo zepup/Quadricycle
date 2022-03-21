@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  root "articles#index"
-  get "/articles", to: "articles#index"
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  #root to: "stations#index"
+  get "about", to: "about#index"
+  get "login", to: "login#index"
+  get "membership", to: "membership#index"
+  get "map", to: "map#index"
+  get "register", to: "register#index"
 end
+
