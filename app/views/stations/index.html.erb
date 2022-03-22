@@ -4,8 +4,8 @@
       Welcome to ValetBike! This is Addie!! Yay!
     </div>  
     <div class="flexbox vertical stretch">
-      <% if @stations.present? %>
-        <%= render(partial: "stations/row", collection: @stations, as: :station) %>
+      <% if @station.present? %>
+        <%= render(partial: "stations/row", collection: @station, as: :station) %>
       <% else %>
       <div class="empty">
         No stations found.
