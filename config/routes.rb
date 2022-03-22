@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get "membership", to: "membership#index"
   get "map", to: "map#index"
   get "register", to: "register#index"
+  root 'map#index'
 end
 
