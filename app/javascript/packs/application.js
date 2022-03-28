@@ -11,3 +11,5 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+//this might not work here
+= require leaflet
