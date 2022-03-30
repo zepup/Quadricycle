@@ -19,10 +19,6 @@
   padding-right: 1%;
 }
 
-a:active {
-  color: black;
-}
-
 .map-box {
     display: flex;
     width: 75%;
