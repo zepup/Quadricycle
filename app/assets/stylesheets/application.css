@@ -19,9 +19,21 @@
   padding-right: 1%;
 }
 
+a:active {
+  color: black;
+}
+
+.map-box {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
 #map {
-  display: flex;
-  align-items: center;
+  /*TODO: Try to center map in the middle of the page */
+  flex: 1;
   width: 960px;
   height: 500px;
+  margin-bottom: 2%;
 }

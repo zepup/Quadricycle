@@ -29,11 +29,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#">Membership</a>
-            <a class="nav-link" href="#">Map</a>
-            <a class="nav-link" href="#">Login</a>
+            <%# Nav bar links to go to all of the pages %>
+            <%= link_to "Home", root_path, class: "nav-link a" %>
+            <%= link_to "Membership", membership_path, class: "nav-link a" %>
+            <%= link_to "Map", map_path, class: "nav-link a" %>
+            <%= link_to "Login", login_path, class: "nav-link a" %>
+            <%= link_to "Register", register_path, class: "nav-link a" %>
           </div>
         </div>
       </div>
