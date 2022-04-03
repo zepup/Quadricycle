@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :memberships
+  resources :products
+  post "checkout/create", to: "checkout#create"
   #root to: "stations#index"
  
   
