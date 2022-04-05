@@ -1,1 +1,7 @@
 <h1>Map</h1>
+  <div class="map-box">
+    <%# Sets map div %>
+    <div id="map"></div>
+    <%# Have to call js file with all leaflet functions after html div %>
+    <%= javascript_include_tag('leaflet.js') %>
+  </div>
